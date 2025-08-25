@@ -55,15 +55,15 @@ Built fully in **R** with end-to-end steps: **data cleaning → EDA → text & s
 
 Quick takeaways
 
-Elastic Net delivers the lowest overall error (RMSE/MSE)
-Lasso has the lowest MAE by a small margin
-All models show strong fit (R² ≈ 0.95–0.96 on this feature set)
+-Elastic Net delivers the lowest overall error (RMSE/MSE)
+-Lasso has the lowest MAE by a small margin
+-All models show strong fit (R² ≈ 0.95–0.96 on this feature set)
 
 ##💡 Insights from EDA & Sentiment
 
-Price relationship: discounted_price and actual_price are strongly positively related
-Ratings: cluster around 3.6–4.4
-Engagement: higher ratings often come with higher rating_count, with wide variance
-Category mix: dominated by Electronics, Home&Kitchen, Computers&Accessories; discount levels vary by category
-Sentiment: positive reviews dominate overall and align with higher rating bands
-Text themes: frequent terms include good, using, value, working, also, use
+-Price relationship: discounted_price and actual_price are strongly positively related
+-Ratings: cluster around 3.6–4.4
+-Engagement: higher ratings often come with higher rating_count, with wide variance
+-Category mix: dominated by Electronics, Home&Kitchen, Computers&Accessories; discount levels vary by category
+-Sentiment: positive reviews dominate overall and align with higher rating bands
+-Text themes: frequent terms include good, using, value, working, also, use
